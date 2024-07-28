@@ -57,6 +57,9 @@
 		ACCESS_BRIG,
 		ACCESS_COURT,
 		ACCESS_SECURITY,
+		ACCESS_MEDICAL,
+		ACCESS_SCIENCE,
+		ACCESS_ENGINEERING,
 	)
 	minimal_access = list(
 		ACCESS_ALL_PERSONAL_LOCKERS,
@@ -70,12 +73,9 @@
 		ACCESS_WEAPONS,
 	)
 	minimal_wildcard_access = list(
-		ACCESS_CAPTAIN,
-		ACCESS_CENT_GENERAL,
 	)
 	template_access = list(
-		ACCESS_CAPTAIN,
-		ACCESS_CHANGE_IDS,
+		ACCESS_CAPTAIN
 	)
 
 /datum/id_trim/job/nanotrasen_consultant
@@ -100,11 +100,9 @@
 		ACCESS_WEAPONS,
 	)
 	minimal_wildcard_access = list(
-		ACCESS_CENT_GENERAL,
 	)
 	template_access = list(
-		ACCESS_CAPTAIN,
-		ACCESS_CHANGE_IDS,
+		ACCESS_CAPTAIN
 	)
 
 /datum/id_trim/job/corrections_officer

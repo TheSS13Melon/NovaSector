@@ -1162,6 +1162,10 @@
 	trim = /datum/id_trim/centcom
 	wildcard_slots = WILDCARD_LIMIT_CENTCOM
 
+/obj/item/card/id/advanced/centcom/station //Nova Edit for NTC and Blueshield Cards
+	desc = "An ID straight from Central Command. This one has been modified for station based employees."
+	wildcard_slots = WILDCARD_LIMIT_PRISONER
+
 /obj/item/card/id/advanced/centcom/ert
 	name = "\improper CentCom ID"
 	desc = "An ERT ID card."
